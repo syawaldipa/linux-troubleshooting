@@ -1,0 +1,9 @@
+Debian 8 Jessie “E: Unable to locate package lmms”
+
+nano /etc/apt/sources.list
+
+deb http://ftp.debian.org/debian jessie main non-free contrib
+deb-src http://ftp.debian.org/debian jessie main non-free contrib
+deb http://ftp.debian.org/debian jessie-updates main contrib non-free
+deb-src http://ftp.debian.org/debian jessie-updates main contrib non-free
+
